@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: yess
+  tasks:
+  - name: install git
+    apt:
+      name: git
+      state: present 
+  - name: install
+    apt:
+      name: wget
+      state: present 
