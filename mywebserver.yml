@@ -1,8 +1,0 @@
----
-- hosts: all
-  become: 
-  tasks: 
-  - name: install weserver
-    apt:
-      name: {{mywebserverpackforubuntu=apache2}}
-      state: prasent
