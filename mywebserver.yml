@@ -4,5 +4,5 @@
   tasks: 
   - name: install weserver
     apt:
-      name: apache2
+      name: {{mywebserverpackforubuntu=apache2}}
       state: prasent
